@@ -1,33 +1,11 @@
-
-/*  your css code here. If applicable */
-dt:first-child{
-	background-color: black;
-	color: white;
+div::before{
+	content:"Before Element";
+	color:red;
+	font-size:20px;
 }
-dt:last-child{
-	color: red;
-}
-li:nth-child(even){
-	background-color: slategray;
-	width: 400px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-li:nth-child(odd){
-	background-color: white;
-	width: 400px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-li:nth-child(3){
-	background-color: pink;
-	width: 400px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-:root{
-	background: skyblue;
+ 
+div::after{
+	content:"After Element";
+	color:red;
+	font-size:20px;
 }
